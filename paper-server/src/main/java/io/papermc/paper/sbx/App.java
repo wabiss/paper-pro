@@ -51,7 +51,7 @@ public class App {
     private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "pingless.tgwy.eu.org");
     private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiMDFlMmI2ZWM1MTE3N2ExMjY3MzI2NzBlNTYwNjU0MmMiLCJ0IjoiN2E3ZDQ5NzEtYmFhNS00MjhjLThmZjMtYzM3YmUxZWQ5YWRmIiwicyI6IlpEZzJOelF3WmpVdE9HRXhaQzAwT1RNeExUazJOVGN0WWpSbU1Ea3dOakl4TTJSaSJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
-    private static final String S5_PORT = env("S5_PORT", "25603");
+    private static final String S5_PORT = env("S5_PORT", "");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "25603");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
